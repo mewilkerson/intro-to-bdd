@@ -19,7 +19,7 @@ window.Bar = (function() {
     },
 
     //----
-
+// DOOZY
     exponentOf: function(exponent) {
       return function(num) {
         return Math.pow(num, exponent);
