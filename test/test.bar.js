@@ -22,10 +22,15 @@ describe("Bar", function() {
   });
 
 
-// PLACEHOLDER FOR DOOZY
+  describe("exponentOf", function() {
 
+    it("multiplies a number by the exponent that's passed into the function", function() {
+      var setNumber3 = bar.exponentOf(3)
+      expect( setNumber3(3) ).eq(27);
+    });
 
-// PLACEHOLDER FOR DOOZY
+  });
+
 
   describe("reverseString", function() {
 
